@@ -4,8 +4,7 @@ html {
 }
 
 body {
-    background-color: #302f36;
-
+    background: linear-gradient(to top, #181717, #2a2d31);
     color: aliceblue;
     text-shadow: 2px;
     margin: 0;
@@ -95,6 +94,8 @@ a:hover {
     background-image: url('bg-tech.jpg');
     background-position: center;
     background-size: cover;
+    border-style: solid;
+    border: 1px solid rgba(255, 255, 255, 0.3);
     padding: 20px;
     text-shadow: 5px;
     border-radius: 5px;
