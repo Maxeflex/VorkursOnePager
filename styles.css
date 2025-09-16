@@ -4,8 +4,8 @@ html {
 }
 
 body {
-    background-color: #37353E;
-   
+    background-color: #302f36;
+
     color: aliceblue;
     text-shadow: 2px;
     margin: 0;
@@ -32,12 +32,16 @@ a:hover {
 
 #topbar {
 
-    height: 20px;
+    height: 40px;
     background-color: #00FF00;
+    margin-bottom: 10px;
 }
-#container{
-    margin: 0 10%;
+
+#container {
+    padding: 0 3%;
+
 }
+
 .divider1 {
     height: 2px;
     width: 100%;
@@ -66,9 +70,10 @@ a:hover {
     min-height: 220px;
     margin: 5px;
     padding: 5px 15px;
-    box-shadow: 5px;
-    border-radius: 10px;
-    background-color: #64676b;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .galleryCard {
@@ -76,9 +81,10 @@ a:hover {
     height: 260px;
     margin: 5px;
     padding: 5px 15px;
-    box-shadow: 5px;
-    border-radius: 10px;
-    background-color: #64676b;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .galleryImg {
@@ -102,7 +108,7 @@ a:hover {
     visibility: hidden;
     display: flex;
     justify-content: space-around;
-    background-color: rgba(240, 248, 255, 0.527);
+    background-color: rgba(240, 248, 255, 0.3);
     padding: 10px 5px;
     border-radius: 10px;
 
@@ -121,6 +127,7 @@ a:hover {
 #roles {
     margin: 0;
     padding: 0;
+    text-shadow: 3;
 }
 
 #navigationBarWrapper {
@@ -141,43 +148,17 @@ a:hover {
 }
 
 .navigationBarElement {
-
     height: 50px;
 }
+
 @media only screen and (min-width: 780px) {
-    #introLogos{
+    #container {
+        margin: 0 7%;
+    }
+}
+
+@media only screen and (min-width: 780px) {
+    #introLogos {
         visibility: visible;
     }
 }
-/* 
-@media only screen and (min-width: 650px) {
-    .skillSection {
-        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    }
-
-    #skillSection4 {
-        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-
-    }
-}
-
-@media only screen and (min-width: 940px) {
-    .skillSection {
-        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
-    }
-     #skillSection4 {
-        grid-template-columns: 2;
-
-    }
-}
-@media only screen and (min-width: 1250px) {
-    .skillSection {
-        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
-    }
-     #skillSection4 {
-        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
-
-    }
-}
-
- */

@@ -7,3 +7,38 @@ rest mit justify
 html tag height 100%
 
 position sticky bottom/top...
+
+media rule
+@media only screen and (min-width: 650px) {}
+
+
+
+ToDo:
+Tech Tags für Galerie: HTML, 3D Druck, Fusion 360, Render, ...
+alt für bilder
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
