@@ -1,0 +1,9 @@
+display flex macht alles neben einander
+flexdirection column machts wieder unter einander
+
+rest mit justify
+
+
+html tag height 100%
+
+position sticky bottom/top...
