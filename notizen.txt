@@ -16,8 +16,8 @@ media rule
 ToDo:
 Tech Tags für Galerie: HTML, 3D Druck, Fusion 360, Render, ...
 alt für bilder
-
-
+scroll einrastpunkte
+animationen
 
 
 
