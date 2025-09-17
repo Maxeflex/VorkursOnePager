@@ -77,13 +77,16 @@ a:hover {
 
 .galleryCard {
     width: fit-content;
-    height: 260px;
+    height: 285px;
     margin: 5px;
     padding: 5px 15px;
     background: rgba(255, 255, 255, 0.05);
     border-radius: 12px;
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .galleryImg {
@@ -150,6 +153,22 @@ a:hover {
 
 .navigationBarElement {
     height: 50px;
+}
+.imgTagCont{
+    display: flex;
+}
+.imgTagDiv{
+    width: fit-content;
+    background-color: #3b3d41;
+    margin-bottom: 5px;
+    margin-right: 3px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: #00FF00;
+    border-style: solid;
+}
+.imgTagP{
+    margin: 2px 4px;
 }
 
 @media only screen and (min-width: 780px) {
