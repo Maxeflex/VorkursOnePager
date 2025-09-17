@@ -154,10 +154,12 @@ a:hover {
 .navigationBarElement {
     height: 50px;
 }
-.imgTagCont{
+
+.imgTagCont {
     display: flex;
 }
-.imgTagDiv{
+
+.imgTagDiv {
     width: fit-content;
     background-color: #3b3d41;
     margin-bottom: 5px;
@@ -167,7 +169,8 @@ a:hover {
     border-color: #00FF00;
     border-style: solid;
 }
-.imgTagP{
+
+.imgTagP {
     margin: 2px 4px;
 }
 
